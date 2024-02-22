@@ -1,0 +1,5 @@
+A = float(input())
+B = float(input())
+C = float(input())
+Result = A*(B/3.14) + (C*3 +5)
+print(Result)
