@@ -1,4 +1,4 @@
 #coding: utf-8                   
 a=float(input())
-b = a*a
+b = 4*a
 print(b)
