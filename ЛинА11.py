@@ -1,3 +1,3 @@
-m = float(input())
-v =float(input())
-print("Сумма =", m+v,"Разность =", m-v,"Произведение =", m*v,"Частное =", m/v,)
+m = float(input(("Введите массу: ")))
+v =float(input(("Введите объём: ")))
+print("Плотность =",m/v)
