@@ -1,0 +1,31 @@
+#24
+mas = [1,2,3,4,5,6,7,8,9,10,11,12]
+mas2 = [13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]
+result = mas + mas2
+print(result)
+#25
+mas = [1,2,3,4,5,6,7,8,9,]
+mas2 = [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,]
+result = mas
+print(result)
+#26
+import numpy as np
+mas = np.full((1,20),9)
+print(mas)
+#27
+import numpy as np
+mas = np.full((1,17),9)
+mas2 = np.full((1,25),7)
+print(mas,mas2)
+mas = [9]
+mas2 = [7]
+j = mas + mas2
+print(j)
+#28
+import numpy as np
+B = [[4,5],
+     [6,3]]
+for r in B:
+    print(r)
+    
+#половина
