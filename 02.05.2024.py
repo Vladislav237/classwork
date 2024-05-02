@@ -1,3 +1,4 @@
+#39
 import random
 print('Input first index matrix: ')
 x = int(input())
