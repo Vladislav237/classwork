@@ -5,3 +5,14 @@ def upper():
         if char.isupper():
             print(char)
 upper()
+#Задание 2
+def punct():
+    str = input()
+    str1 = str.count("!")
+    str1 += str.count("?")
+    str1 += str.count(".")
+    str1 += str.count(",")
+    str1 += str.count("(")
+    str1 += str.count(")")
+    print(str1)
+punct()
