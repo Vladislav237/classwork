@@ -1,0 +1,10 @@
+# Задание 1
+start = int(input())
+end = int(input())
+if start > end:
+    start , end = end, start
+def sum(start,end):
+    for i in range(start, end +1):
+        start += i
+    print(start)
+sum(start, end)
