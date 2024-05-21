@@ -8,3 +8,5 @@ def sum(start,end):
         start += i
     print(start)
 sum(start, end)
+# Задание 2
+# Функция 1 при вызове вернёт значение param
