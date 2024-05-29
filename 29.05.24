@@ -1,0 +1,17 @@
+#Задание1
+j = input()
+try:
+    j = int(j)
+except ValueError:
+    print(j, "- не число. Повторите ввод." )
+    j = input()
+else:
+    for i in range(j+1):
+        print(i, end=" ")
+#Задание2
+f = [7,3.2,16,9,13.5,67]
+for i in f:
+    try:
+        print(i/f.index(i))
+    except ZeroDivisionError:
+        print("Деление на 0!  Элемент", i)
